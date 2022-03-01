@@ -1,0 +1,89 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(217deg, rgba(29, 5, 5, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(119, 126, 119, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(1, 1, 36, 0.8), rgba(0,0,255,0) 70.71%);
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-content {
+    width: 20%;
+}
+
+.right-content {
+    width: 80%;
+}
+
+#banner>img { 
+    width: 100%;
+}
+
+.title {
+    font-size: 5em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+nav {
+    margin: 50px auto;
+}
+
+.topmenu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+
+.topmenu>li {
+    display: inline-block;
+}
+
+  .topmenu>li>a {
+    color: floralwhite;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+#talenttitle {
+    text-align: center;
+}
+
+.talent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+article {
+    background-color: rgb(73, 99, 48);
+}
+
+#search-talent {
+    text-align: center;
+}
+
+#search-item {
+    font-size: 20px;
+    padding: 15px;
+    border: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+#search-button {
+    margin: 15px;
+    padding: 20px;
+    font-size: 2em;
+    width: 400px;
+    border-radius: 20;
+    background-color: rgba(68, 0, 255, 0);
+    color: rgb(18, 16, 19);
+    cursor: pointer;
+}
